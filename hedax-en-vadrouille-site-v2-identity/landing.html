@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title id="page-title">Guide — Hedax en Vadrouille</title>
+  <meta id="page-description" name="description" content="Conseils & réservation" />
+  <meta property="og:type" content="article" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="site-header container">
+    <a href="/" class="logo">Hedax <span>en Vadrouille</span></a>
+    <nav class="nav">
+      <a href="/">Accueil</a>
+      <a href="/page/a-propos">À propos</a>
+      <a href="/page/contact">Contact</a>
+      <a href="/admin">Éditer</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article id="landing-article" class="landing-article">
+      <div id="hero" class="hero-image" aria-label="Image de couverture"></div>
+      <h1 id="title" class="title">Chargement…</h1>
+      <p id="intro" class="intro"></p>
+
+      <div id="cta" class="cta"></div>
+
+      <div id="highlights" class="highlights"></div>
+      <div id="content"></div>
+      <section id="faq-section" class="faq-section"></section>
+      <section id="practical" class="practical"></section>
+    </article>
+  </main>
+
+  <div id="sticky-cta" class="sticky-cta" hidden>
+    <a id="sticky-cta-link" class="btn btn-accent" target="_blank" rel="sponsored nofollow noopener">Réserver via GetYourGuide</a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Hedax en Vadrouille</p>
+      <p><a href="/page/mentions-legales">Mentions légales</a> · <a href="/page/confidentialite">Confidentialité</a></p>
+      <p class="disclaimer" id="affiliate-note">Transparence : certains liens sont affiliés (GetYourGuide). Je peux percevoir une commission sans surcoût pour toi.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gray-matter@4.0.3/dist/gray-matter.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="/js/landing.js"></script>
+</body>
+</html>
