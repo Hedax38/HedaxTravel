@@ -1,2 +1,0 @@
-/landing/:slug /landing.html?slug=:slug 200
-/page/:slug /page.html?slug=:slug 200
